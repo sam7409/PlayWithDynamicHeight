@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F735B40B2A95DDB800F60E77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F735B40A2A95DDB800F60E77 /* AppDelegate.swift */; };
+		F735B40D2A95DDB800F60E77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F735B40C2A95DDB800F60E77 /* SceneDelegate.swift */; };
+		F735B40F2A95DDB800F60E77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F735B40E2A95DDB800F60E77 /* ViewController.swift */; };
+		F735B4122A95DDB800F60E77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F735B4102A95DDB800F60E77 /* Main.storyboard */; };
+		F735B4142A95DDB900F60E77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F735B4132A95DDB900F60E77 /* Assets.xcassets */; };
+		F735B4172A95DDB900F60E77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F735B4152A95DDB900F60E77 /* LaunchScreen.storyboard */; };
+		F735B4222A95DDB900F60E77 /* PlayWithDynamicHeightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F735B4212A95DDB900F60E77 /* PlayWithDynamicHeightTests.swift */; };
+		F735B42C2A95DDB900F60E77 /* PlayWithDynamicHeightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F735B42B2A95DDB900F60E77 /* PlayWithDynamicHeightUITests.swift */; };
+		F735B42E2A95DDB900F60E77 /* PlayWithDynamicHeightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F735B42D2A95DDB900F60E77 /* PlayWithDynamicHeightUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F735B41E2A95DDB900F60E77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F735B3FF2A95DDB800F60E77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F735B4062A95DDB800F60E77;
+			remoteInfo = PlayWithDynamicHeight;
+		};
+		F735B4282A95DDB900F60E77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F735B3FF2A95DDB800F60E77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F735B4062A95DDB800F60E77;
+			remoteInfo = PlayWithDynamicHeight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F735B4072A95DDB800F60E77 /* PlayWithDynamicHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayWithDynamicHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F735B40A2A95DDB800F60E77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F735B40C2A95DDB800F60E77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F735B40E2A95DDB800F60E77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F735B4112A95DDB800F60E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F735B4132A95DDB900F60E77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F735B4162A95DDB900F60E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F735B4182A95DDB900F60E77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F735B41D2A95DDB900F60E77 /* PlayWithDynamicHeightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayWithDynamicHeightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F735B4212A95DDB900F60E77 /* PlayWithDynamicHeightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayWithDynamicHeightTests.swift; sourceTree = "<group>"; };
+		F735B4272A95DDB900F60E77 /* PlayWithDynamicHeightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayWithDynamicHeightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F735B42B2A95DDB900F60E77 /* PlayWithDynamicHeightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayWithDynamicHeightUITests.swift; sourceTree = "<group>"; };
+		F735B42D2A95DDB900F60E77 /* PlayWithDynamicHeightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayWithDynamicHeightUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F735B4042A95DDB800F60E77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F735B41A2A95DDB900F60E77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F735B4242A95DDB900F60E77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F735B3FE2A95DDB800F60E77 = {
+			isa = PBXGroup;
+			children = (
+				F735B4092A95DDB800F60E77 /* PlayWithDynamicHeight */,
+				F735B4202A95DDB900F60E77 /* PlayWithDynamicHeightTests */,
+				F735B42A2A95DDB900F60E77 /* PlayWithDynamicHeightUITests */,
+				F735B4082A95DDB800F60E77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F735B4082A95DDB800F60E77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F735B4072A95DDB800F60E77 /* PlayWithDynamicHeight.app */,
+				F735B41D2A95DDB900F60E77 /* PlayWithDynamicHeightTests.xctest */,
+				F735B4272A95DDB900F60E77 /* PlayWithDynamicHeightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F735B4092A95DDB800F60E77 /* PlayWithDynamicHeight */ = {
+			isa = PBXGroup;
+			children = (
+				F735B40A2A95DDB800F60E77 /* AppDelegate.swift */,
+				F735B40C2A95DDB800F60E77 /* SceneDelegate.swift */,
+				F735B40E2A95DDB800F60E77 /* ViewController.swift */,
+				F735B4102A95DDB800F60E77 /* Main.storyboard */,
+				F735B4132A95DDB900F60E77 /* Assets.xcassets */,
+				F735B4152A95DDB900F60E77 /* LaunchScreen.storyboard */,
+				F735B4182A95DDB900F60E77 /* Info.plist */,
+			);
+			path = PlayWithDynamicHeight;
+			sourceTree = "<group>";
+		};
+		F735B4202A95DDB900F60E77 /* PlayWithDynamicHeightTests */ = {
+			isa = PBXGroup;
+			children = (
+				F735B4212A95DDB900F60E77 /* PlayWithDynamicHeightTests.swift */,
+			);
+			path = PlayWithDynamicHeightTests;
+			sourceTree = "<group>";
+		};
+		F735B42A2A95DDB900F60E77 /* PlayWithDynamicHeightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F735B42B2A95DDB900F60E77 /* PlayWithDynamicHeightUITests.swift */,
+				F735B42D2A95DDB900F60E77 /* PlayWithDynamicHeightUITestsLaunchTests.swift */,
+			);
+			path = PlayWithDynamicHeightUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F735B4062A95DDB800F60E77 /* PlayWithDynamicHeight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F735B4312A95DDB900F60E77 /* Build configuration list for PBXNativeTarget "PlayWithDynamicHeight" */;
+			buildPhases = (
+				F735B4032A95DDB800F60E77 /* Sources */,
+				F735B4042A95DDB800F60E77 /* Frameworks */,
+				F735B4052A95DDB800F60E77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayWithDynamicHeight;
+			productName = PlayWithDynamicHeight;
+			productReference = F735B4072A95DDB800F60E77 /* PlayWithDynamicHeight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F735B41C2A95DDB900F60E77 /* PlayWithDynamicHeightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F735B4342A95DDB900F60E77 /* Build configuration list for PBXNativeTarget "PlayWithDynamicHeightTests" */;
+			buildPhases = (
+				F735B4192A95DDB900F60E77 /* Sources */,
+				F735B41A2A95DDB900F60E77 /* Frameworks */,
+				F735B41B2A95DDB900F60E77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F735B41F2A95DDB900F60E77 /* PBXTargetDependency */,
+			);
+			name = PlayWithDynamicHeightTests;
+			productName = PlayWithDynamicHeightTests;
+			productReference = F735B41D2A95DDB900F60E77 /* PlayWithDynamicHeightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F735B4262A95DDB900F60E77 /* PlayWithDynamicHeightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F735B4372A95DDB900F60E77 /* Build configuration list for PBXNativeTarget "PlayWithDynamicHeightUITests" */;
+			buildPhases = (
+				F735B4232A95DDB900F60E77 /* Sources */,
+				F735B4242A95DDB900F60E77 /* Frameworks */,
+				F735B4252A95DDB900F60E77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F735B4292A95DDB900F60E77 /* PBXTargetDependency */,
+			);
+			name = PlayWithDynamicHeightUITests;
+			productName = PlayWithDynamicHeightUITests;
+			productReference = F735B4272A95DDB900F60E77 /* PlayWithDynamicHeightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F735B3FF2A95DDB800F60E77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F735B4062A95DDB800F60E77 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F735B41C2A95DDB900F60E77 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F735B4062A95DDB800F60E77;
+					};
+					F735B4262A95DDB900F60E77 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F735B4062A95DDB800F60E77;
+					};
+				};
+			};
+			buildConfigurationList = F735B4022A95DDB800F60E77 /* Build configuration list for PBXProject "PlayWithDynamicHeight" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F735B3FE2A95DDB800F60E77;
+			productRefGroup = F735B4082A95DDB800F60E77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F735B4062A95DDB800F60E77 /* PlayWithDynamicHeight */,
+				F735B41C2A95DDB900F60E77 /* PlayWithDynamicHeightTests */,
+				F735B4262A95DDB900F60E77 /* PlayWithDynamicHeightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F735B4052A95DDB800F60E77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F735B4172A95DDB900F60E77 /* LaunchScreen.storyboard in Resources */,
+				F735B4142A95DDB900F60E77 /* Assets.xcassets in Resources */,
+				F735B4122A95DDB800F60E77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F735B41B2A95DDB900F60E77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F735B4252A95DDB900F60E77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F735B4032A95DDB800F60E77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F735B40F2A95DDB800F60E77 /* ViewController.swift in Sources */,
+				F735B40B2A95DDB800F60E77 /* AppDelegate.swift in Sources */,
+				F735B40D2A95DDB800F60E77 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F735B4192A95DDB900F60E77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F735B4222A95DDB900F60E77 /* PlayWithDynamicHeightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F735B4232A95DDB900F60E77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F735B42C2A95DDB900F60E77 /* PlayWithDynamicHeightUITests.swift in Sources */,
+				F735B42E2A95DDB900F60E77 /* PlayWithDynamicHeightUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F735B41F2A95DDB900F60E77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F735B4062A95DDB800F60E77 /* PlayWithDynamicHeight */;
+			targetProxy = F735B41E2A95DDB900F60E77 /* PBXContainerItemProxy */;
+		};
+		F735B4292A95DDB900F60E77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F735B4062A95DDB800F60E77 /* PlayWithDynamicHeight */;
+			targetProxy = F735B4282A95DDB900F60E77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F735B4102A95DDB800F60E77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F735B4112A95DDB800F60E77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F735B4152A95DDB900F60E77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F735B4162A95DDB900F60E77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F735B42F2A95DDB900F60E77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F735B4302A95DDB900F60E77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F735B4322A95DDB900F60E77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlayWithDynamicHeight/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neeshu-loginpage.PlayWithDynamicHeight";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F735B4332A95DDB900F60E77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlayWithDynamicHeight/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neeshu-loginpage.PlayWithDynamicHeight";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F735B4352A95DDB900F60E77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neeshu-loginpage.PlayWithDynamicHeightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayWithDynamicHeight.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlayWithDynamicHeight";
+			};
+			name = Debug;
+		};
+		F735B4362A95DDB900F60E77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neeshu-loginpage.PlayWithDynamicHeightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayWithDynamicHeight.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlayWithDynamicHeight";
+			};
+			name = Release;
+		};
+		F735B4382A95DDB900F60E77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neeshu-loginpage.PlayWithDynamicHeightUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayWithDynamicHeight;
+			};
+			name = Debug;
+		};
+		F735B4392A95DDB900F60E77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neeshu-loginpage.PlayWithDynamicHeightUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayWithDynamicHeight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F735B4022A95DDB800F60E77 /* Build configuration list for PBXProject "PlayWithDynamicHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F735B42F2A95DDB900F60E77 /* Debug */,
+				F735B4302A95DDB900F60E77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F735B4312A95DDB900F60E77 /* Build configuration list for PBXNativeTarget "PlayWithDynamicHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F735B4322A95DDB900F60E77 /* Debug */,
+				F735B4332A95DDB900F60E77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F735B4342A95DDB900F60E77 /* Build configuration list for PBXNativeTarget "PlayWithDynamicHeightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F735B4352A95DDB900F60E77 /* Debug */,
+				F735B4362A95DDB900F60E77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F735B4372A95DDB900F60E77 /* Build configuration list for PBXNativeTarget "PlayWithDynamicHeightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F735B4382A95DDB900F60E77 /* Debug */,
+				F735B4392A95DDB900F60E77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F735B3FF2A95DDB800F60E77 /* Project object */;
+}
