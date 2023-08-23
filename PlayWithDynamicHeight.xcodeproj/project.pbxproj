@@ -10,12 +10,15 @@
 		F735B40B2A95DDB800F60E77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F735B40A2A95DDB800F60E77 /* AppDelegate.swift */; };
 		F735B40D2A95DDB800F60E77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F735B40C2A95DDB800F60E77 /* SceneDelegate.swift */; };
 		F735B40F2A95DDB800F60E77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F735B40E2A95DDB800F60E77 /* ViewController.swift */; };
-		F735B4122A95DDB800F60E77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F735B4102A95DDB800F60E77 /* Main.storyboard */; };
 		F735B4142A95DDB900F60E77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F735B4132A95DDB900F60E77 /* Assets.xcassets */; };
 		F735B4172A95DDB900F60E77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F735B4152A95DDB900F60E77 /* LaunchScreen.storyboard */; };
 		F735B4222A95DDB900F60E77 /* PlayWithDynamicHeightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F735B4212A95DDB900F60E77 /* PlayWithDynamicHeightTests.swift */; };
 		F735B42C2A95DDB900F60E77 /* PlayWithDynamicHeightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F735B42B2A95DDB900F60E77 /* PlayWithDynamicHeightUITests.swift */; };
 		F735B42E2A95DDB900F60E77 /* PlayWithDynamicHeightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F735B42D2A95DDB900F60E77 /* PlayWithDynamicHeightUITestsLaunchTests.swift */; };
+		F735B43B2A9608E300F60E77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F735B43A2A9608E300F60E77 /* Main.storyboard */; };
+		F7402EBE2A961B3F00B94EA9 /* IOS_CommonUtilSPM in Frameworks */ = {isa = PBXBuildFile; productRef = F7402EBD2A961B3F00B94EA9 /* IOS_CommonUtilSPM */; };
+		F76A27802A962DB30002C72D /* DynamicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76A277E2A962DB30002C72D /* DynamicViewController.swift */; };
+		F76A27812A962DB30002C72D /* DynamicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F76A277F2A962DB30002C72D /* DynamicViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +43,6 @@
 		F735B40A2A95DDB800F60E77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F735B40C2A95DDB800F60E77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F735B40E2A95DDB800F60E77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F735B4112A95DDB800F60E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F735B4132A95DDB900F60E77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F735B4162A95DDB900F60E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F735B4182A95DDB900F60E77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,9 @@
 		F735B4272A95DDB900F60E77 /* PlayWithDynamicHeightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayWithDynamicHeightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F735B42B2A95DDB900F60E77 /* PlayWithDynamicHeightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayWithDynamicHeightUITests.swift; sourceTree = "<group>"; };
 		F735B42D2A95DDB900F60E77 /* PlayWithDynamicHeightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayWithDynamicHeightUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F735B43A2A9608E300F60E77 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F76A277E2A962DB30002C72D /* DynamicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicViewController.swift; sourceTree = "<group>"; };
+		F76A277F2A962DB30002C72D /* DynamicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DynamicViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7402EBE2A961B3F00B94EA9 /* IOS_CommonUtilSPM in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,10 +108,12 @@
 				F735B40A2A95DDB800F60E77 /* AppDelegate.swift */,
 				F735B40C2A95DDB800F60E77 /* SceneDelegate.swift */,
 				F735B40E2A95DDB800F60E77 /* ViewController.swift */,
-				F735B4102A95DDB800F60E77 /* Main.storyboard */,
 				F735B4132A95DDB900F60E77 /* Assets.xcassets */,
 				F735B4152A95DDB900F60E77 /* LaunchScreen.storyboard */,
 				F735B4182A95DDB900F60E77 /* Info.plist */,
+				F735B43A2A9608E300F60E77 /* Main.storyboard */,
+				F76A277E2A962DB30002C72D /* DynamicViewController.swift */,
+				F76A277F2A962DB30002C72D /* DynamicViewController.xib */,
 			);
 			path = PlayWithDynamicHeight;
 			sourceTree = "<group>";
@@ -143,6 +151,9 @@
 			dependencies = (
 			);
 			name = PlayWithDynamicHeight;
+			packageProductDependencies = (
+				F7402EBD2A961B3F00B94EA9 /* IOS_CommonUtilSPM */,
+			);
 			productName = PlayWithDynamicHeight;
 			productReference = F735B4072A95DDB800F60E77 /* PlayWithDynamicHeight.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +226,9 @@
 				Base,
 			);
 			mainGroup = F735B3FE2A95DDB800F60E77;
+			packageReferences = (
+				F7402EBC2A961B3F00B94EA9 /* XCRemoteSwiftPackageReference "IOS_CommonUtilSPM" */,
+			);
 			productRefGroup = F735B4082A95DDB800F60E77 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +247,8 @@
 			files = (
 				F735B4172A95DDB900F60E77 /* LaunchScreen.storyboard in Resources */,
 				F735B4142A95DDB900F60E77 /* Assets.xcassets in Resources */,
-				F735B4122A95DDB800F60E77 /* Main.storyboard in Resources */,
+				F76A27812A962DB30002C72D /* DynamicViewController.xib in Resources */,
+				F735B43B2A9608E300F60E77 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +275,7 @@
 			files = (
 				F735B40F2A95DDB800F60E77 /* ViewController.swift in Sources */,
 				F735B40B2A95DDB800F60E77 /* AppDelegate.swift in Sources */,
+				F76A27802A962DB30002C72D /* DynamicViewController.swift in Sources */,
 				F735B40D2A95DDB800F60E77 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +313,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F735B4102A95DDB800F60E77 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F735B4112A95DDB800F60E77 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F735B4152A95DDB900F60E77 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,6 +445,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A3C2DQ9TYS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PlayWithDynamicHeight/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,6 +473,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A3C2DQ9TYS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PlayWithDynamicHeight/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -596,6 +606,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F7402EBC2A961B3F00B94EA9 /* XCRemoteSwiftPackageReference "IOS_CommonUtilSPM" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Mobisoft-Labs/IOS_CommonUtilSPM.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F7402EBD2A961B3F00B94EA9 /* IOS_CommonUtilSPM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7402EBC2A961B3F00B94EA9 /* XCRemoteSwiftPackageReference "IOS_CommonUtilSPM" */;
+			productName = IOS_CommonUtilSPM;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F735B3FF2A95DDB800F60E77 /* Project object */;
 }
