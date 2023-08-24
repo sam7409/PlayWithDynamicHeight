@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F72F67982A970C2E00E47C48 /* DynamicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72F67962A970C2E00E47C48 /* DynamicViewController.swift */; };
+		F72F67992A970C2E00E47C48 /* DynamicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F72F67972A970C2E00E47C48 /* DynamicViewController.xib */; };
+		F72F679C2A97289200E47C48 /* SecondDynamicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72F679A2A97289200E47C48 /* SecondDynamicViewController.swift */; };
+		F72F679D2A97289200E47C48 /* SecondDynamicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F72F679B2A97289200E47C48 /* SecondDynamicViewController.xib */; };
+		F72F67A02A9728A300E47C48 /* ThirdDynamicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72F679E2A9728A300E47C48 /* ThirdDynamicViewController.swift */; };
+		F72F67A12A9728A300E47C48 /* ThirdDynamicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F72F679F2A9728A300E47C48 /* ThirdDynamicViewController.xib */; };
 		F735B40B2A95DDB800F60E77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F735B40A2A95DDB800F60E77 /* AppDelegate.swift */; };
 		F735B40D2A95DDB800F60E77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F735B40C2A95DDB800F60E77 /* SceneDelegate.swift */; };
 		F735B40F2A95DDB800F60E77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F735B40E2A95DDB800F60E77 /* ViewController.swift */; };
@@ -17,8 +23,6 @@
 		F735B42E2A95DDB900F60E77 /* PlayWithDynamicHeightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F735B42D2A95DDB900F60E77 /* PlayWithDynamicHeightUITestsLaunchTests.swift */; };
 		F735B43B2A9608E300F60E77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F735B43A2A9608E300F60E77 /* Main.storyboard */; };
 		F7402EBE2A961B3F00B94EA9 /* IOS_CommonUtilSPM in Frameworks */ = {isa = PBXBuildFile; productRef = F7402EBD2A961B3F00B94EA9 /* IOS_CommonUtilSPM */; };
-		F76A27802A962DB30002C72D /* DynamicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76A277E2A962DB30002C72D /* DynamicViewController.swift */; };
-		F76A27812A962DB30002C72D /* DynamicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F76A277F2A962DB30002C72D /* DynamicViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F72F67962A970C2E00E47C48 /* DynamicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicViewController.swift; sourceTree = "<group>"; };
+		F72F67972A970C2E00E47C48 /* DynamicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DynamicViewController.xib; sourceTree = "<group>"; };
+		F72F679A2A97289200E47C48 /* SecondDynamicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondDynamicViewController.swift; sourceTree = "<group>"; };
+		F72F679B2A97289200E47C48 /* SecondDynamicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondDynamicViewController.xib; sourceTree = "<group>"; };
+		F72F679E2A9728A300E47C48 /* ThirdDynamicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdDynamicViewController.swift; sourceTree = "<group>"; };
+		F72F679F2A9728A300E47C48 /* ThirdDynamicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdDynamicViewController.xib; sourceTree = "<group>"; };
 		F735B4072A95DDB800F60E77 /* PlayWithDynamicHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayWithDynamicHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F735B40A2A95DDB800F60E77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F735B40C2A95DDB800F60E77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,8 +62,6 @@
 		F735B42B2A95DDB900F60E77 /* PlayWithDynamicHeightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayWithDynamicHeightUITests.swift; sourceTree = "<group>"; };
 		F735B42D2A95DDB900F60E77 /* PlayWithDynamicHeightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayWithDynamicHeightUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F735B43A2A9608E300F60E77 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		F76A277E2A962DB30002C72D /* DynamicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicViewController.swift; sourceTree = "<group>"; };
-		F76A277F2A962DB30002C72D /* DynamicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DynamicViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +120,12 @@
 				F735B4152A95DDB900F60E77 /* LaunchScreen.storyboard */,
 				F735B4182A95DDB900F60E77 /* Info.plist */,
 				F735B43A2A9608E300F60E77 /* Main.storyboard */,
-				F76A277E2A962DB30002C72D /* DynamicViewController.swift */,
-				F76A277F2A962DB30002C72D /* DynamicViewController.xib */,
+				F72F67962A970C2E00E47C48 /* DynamicViewController.swift */,
+				F72F67972A970C2E00E47C48 /* DynamicViewController.xib */,
+				F72F679A2A97289200E47C48 /* SecondDynamicViewController.swift */,
+				F72F679B2A97289200E47C48 /* SecondDynamicViewController.xib */,
+				F72F679E2A9728A300E47C48 /* ThirdDynamicViewController.swift */,
+				F72F679F2A9728A300E47C48 /* ThirdDynamicViewController.xib */,
 			);
 			path = PlayWithDynamicHeight;
 			sourceTree = "<group>";
@@ -247,7 +259,9 @@
 			files = (
 				F735B4172A95DDB900F60E77 /* LaunchScreen.storyboard in Resources */,
 				F735B4142A95DDB900F60E77 /* Assets.xcassets in Resources */,
-				F76A27812A962DB30002C72D /* DynamicViewController.xib in Resources */,
+				F72F67A12A9728A300E47C48 /* ThirdDynamicViewController.xib in Resources */,
+				F72F67992A970C2E00E47C48 /* DynamicViewController.xib in Resources */,
+				F72F679D2A97289200E47C48 /* SecondDynamicViewController.xib in Resources */,
 				F735B43B2A9608E300F60E77 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +289,9 @@
 			files = (
 				F735B40F2A95DDB800F60E77 /* ViewController.swift in Sources */,
 				F735B40B2A95DDB800F60E77 /* AppDelegate.swift in Sources */,
-				F76A27802A962DB30002C72D /* DynamicViewController.swift in Sources */,
+				F72F679C2A97289200E47C48 /* SecondDynamicViewController.swift in Sources */,
+				F72F67982A970C2E00E47C48 /* DynamicViewController.swift in Sources */,
+				F72F67A02A9728A300E47C48 /* ThirdDynamicViewController.swift in Sources */,
 				F735B40D2A95DDB800F60E77 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

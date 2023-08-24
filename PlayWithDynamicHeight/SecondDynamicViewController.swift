@@ -1,5 +1,5 @@
 //
-//  DynamicViewController.swift
+//  SecondDynamicViewController.swift
 //  PlayWithDynamicHeight
 //
 //  Created by HIMANSHU SINGH on 24/08/23.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DynamicViewController: UIViewController {
+class SecondDynamicViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

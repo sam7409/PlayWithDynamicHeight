@@ -17,23 +17,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Nn-4M-jp7" userLabel="secondMAinVC">
-                                <rect key="frame" x="10" y="608" width="373" height="200"/>
+                                <rect key="frame" x="10" y="59" width="373" height="749"/>
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" priority="100" constant="200" id="28b-U4-T11"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="4Nn-4M-jp7" secondAttribute="trailing" constant="10" id="MGb-mg-C8e"/>
+                            <constraint firstItem="4Nn-4M-jp7" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" priority="100" id="dLm-vz-4HY"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="4Nn-4M-jp7" secondAttribute="bottom" constant="10" id="fZb-KE-uzI"/>
                             <constraint firstItem="4Nn-4M-jp7" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="rTg-YP-djI"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="bottomView" destination="4Nn-4M-jp7" id="Isw-Fc-Yd0"/>
+                        <outlet property="mainView" destination="5EZ-qb-Rvc" id="GSe-0s-DrK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
